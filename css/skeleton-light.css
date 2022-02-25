@@ -129,8 +129,8 @@ code {
   margin: 0 0.2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #f1f1f1;
-  border: 1px solid #e1e1e1;
+  background: #FFEF62;
+  border: 1px solid #4E4AFF;
   border-radius: 4px;
 }
 pre > code {
@@ -183,5 +183,5 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #e1e1e1;
+  border-top: 1px solid #4E4AFF;
 }
