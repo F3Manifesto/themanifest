@@ -184,8 +184,8 @@ button:hover,
 
 /* Github */
 .button.button-github {
-  color: #4E4AFF;
-  background-color: #FFEF62;
+  color: #FFEF62;
+  background-color: #4E4AFF;
 }
 .button.button-github:hover,
 .button.button-github:focus {
