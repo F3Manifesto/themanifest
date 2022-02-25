@@ -185,3 +185,8 @@ hr {
   border-width: 0;
   border-top: 1px solid #4E4AFF;
 }
+
+.photo {
+  height: 100px;
+  width: 100px; 
+}
