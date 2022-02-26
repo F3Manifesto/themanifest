@@ -104,17 +104,18 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
-<footer>
-
-  <div class="container">
-    <div class="row">
-      <img className={styles.logoBig} src="images/logobig.png" srcset="images/logoBig.png" alt="logoBig" width = "150" height = "106.77">
+<footer className={styles.footer}>
+  <div className={styles.footerWrapper}>
+    <div className={styles.textLogo}>
+      <img className={styles.logoBig} src='/images/logoBig.png' alt='logoBig' />
     </div>
     
-    <div className={styles.leftWrapper}>
+    <div className={styles.centerWrapper}>
       <div className={styles.description}>
         Reach out across any of our social media channels to get more involved with the manifesto, cc0 web3 fashion & the open metaverse. ALL ENGINEERING AND ARCHITECTURE IS FORKED FROM THE DIGITALAX OPEN SOURCE PROTOCOL STACK.
       </div>
+
+      <div className={[styles.dFlex, styles.iconsLine].join()}>
 
         <a href="https://www.tiktok.com/@f3manifesto" target="_blank">
           <img
@@ -153,7 +154,7 @@
         </a>
       </div>
 
-      <div className={[styles.dFlex, styles.aboutLine].join(' ')}>
+      <div className={[styles.dFlex, styles.aboutLine].join()}>
         <a href="https://docs.f3manifesto.xyz/" target="_blank">
           SEE ALL DOCUMENTATION
         </a>
