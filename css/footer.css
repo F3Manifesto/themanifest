@@ -1,14 +1,19 @@
-.footer,
-footer {
+.footer {
     background: #4E4AFF;
     position: relative;
-    height: 180px;
+  
+    a {
+      color: white;
+      &:hover {
+        color: white;
+      }
+    }
   }
-
+  
   .footerWrapper {
     color: white;
     background: #4E4AFF;
-    max-width: 1300px;
+    // max-width: 1300px;
     margin: auto;
     padding-top: 57px;
     padding-bottom: 57px;
@@ -17,21 +22,24 @@ footer {
     display: flex;
     flex-direction: row;
   
-   @media (max-width: 1440px) {
+    @media (max-width: 1440px) {
       max-width: 90%;
     }
-
-      .centerWrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-        padding-left: 34px;
-        padding-right: 34px;
-      }
+  
+    .imageLogo {
+      
+    }
+  
+    .centerWrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      padding-left: 34px;
+      padding-right: 34px;
   
       .description {
-        font-family: "lemon_milkregular";
+        font-family: "LEMON MILK";
         font-style: normal;
         font-size: 22px;
         line-height: 30px;
@@ -45,7 +53,7 @@ footer {
       }
   
       .aboutLine {
-        font-family: "lemon_milkregular";
+        font-family: "LEMON MILK";
         font-size: 20px;
         line-height: 24px;
         text-align: left;
@@ -53,6 +61,10 @@ footer {
         align-items: flex-start;
         justify-content: flex-start;
         width: 100%;
+  
+        a {
+  
+        }
       }
   
       .iconsLine {
@@ -79,6 +91,7 @@ footer {
           height: 35px;
         }
       }
+    }
   
     .whiteLogo {
       width: 40px;
@@ -86,6 +99,11 @@ footer {
       margin-bottom: 30px;
     }
   
+    @media (max-width: 1440px) {
+      .imageLogo {
+        
+      }
+    }
     @media (max-width: 780px) {
       display: flex;
       flex-direction: column;
@@ -189,12 +207,3 @@ footer {
   .linkedinIcon {
     width: 35px;
   }
-  
-  @font-face {
-    font-family: 'lemon_milkregular';
-    src: url('lemonmilk-regular-webfont.woff2') format('woff2'),
-         url('lemonmilk-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
