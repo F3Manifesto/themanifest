@@ -102,26 +102,62 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
-</html>
+<footer>
 
-<html>
-<head>
-<title></title>
-<script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-</script>
-<script> 
-$(function(){
-  $("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
-});
-</script> 
-</head>
-<body>
-<div id="header"></div>
-<!--Remaining section-->
-<div id="footer"></div>
-</body>
+  <div class="container">
+    <div class="row">
+      <img className={styles.imageLogo} src='/images/logoBig.png' alt='logo_big' />
+    </div>
+    
+    <div className={styles.centerWrapper}>
+      <div className={styles.description}>
+        Reach out across any of our social media channels to get more involved with the manifesto, cc0 web3 fashion & the open metaverse. ALL ENGINEERING AND ARCHITECTURE IS FORKED FROM THE DIGITALAX OPEN SOURCE PROTOCOL STACK.
+      </div>
+
+        <a href="https://www.tiktok.com/@f3manifesto" target="_blank">
+          <img
+            src="/images/social-icons/tiktok.svg"
+            alt="tiktok-icon"
+            className={styles.tiktokIcon}
+          />
+        </a>
+        <a href="https://www.youtube.com/channel/UC5SOYiDrdooqNusoS5vrJAw" target="_blank">
+          <img
+            src="/images/social-icons/youtube.svg"
+            alt="youtube-icon"
+            className={styles.youtubeIcon}
+          />
+        </a>
+        <a href="https://f3manifesto.medium.com/" target="_blank">
+          <img
+            src="/images/social-icons/medium.png"
+            alt="medium-icon"
+            className={styles.mediumIcon}
+          />
+        </a>
+        <a href="https://mirror.xyz/f3manifesto.eth" target="_blank">
+          <img
+            src="/images/social-icons/mirror.png"
+            alt="mirror-icon"
+            className={styles.mirrorIcon}
+          />
+        </a>
+        <a href="https://twitter.com/f3manifesto" target="_blank">
+          <img
+            src="/images/social-icons/twitter.png"
+            alt="twitter-icon"
+            className={styles.twitterIcon}
+          />
+        </a>
+      </div>
+
+      <div className={[styles.dFlex, styles.aboutLine].join(' ')}>
+        <a href="https://docs.f3manifesto.xyz/" target="_blank">
+          SEE ALL DOCUMENTATION
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
 </html>
