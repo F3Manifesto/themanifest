@@ -214,7 +214,8 @@
        url('lemonmilk-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
 
-  a.footer-text-white {
+a.footer-text-white {
     color: white;
 }
