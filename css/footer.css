@@ -9,11 +9,6 @@
       }
     }
 
-    a.footer-text-white {
-        color: white;
-    }
-  
-  
   .footerWrapper {
     color: white;
     background: #4E4AFF;
@@ -221,3 +216,8 @@
   font-style: normal;
 
 }
+
+a.footer-text-white {
+    color: white;
+}
+
