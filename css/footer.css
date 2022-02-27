@@ -3,12 +3,16 @@
     position: relative;
   
     a {
-      color: white;
+      color; #fffff;
       &:hover {
         color: white;
       }
     }
-  }
+
+    a.footer-text-white {
+        color: white;
+    }
+  
   
   .footerWrapper {
     color: white;
@@ -203,8 +207,17 @@
         }
       }
     }
-  }
   
   .linkedinIcon {
     width: 35px;
   }
+
+
+@font-face {
+  font-family: 'lemon_milkregular';
+  src: url('lemonmilk-regular-webfont.woff2') format('woff2'),
+       url('lemonmilk-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
