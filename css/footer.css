@@ -39,15 +39,12 @@
     }
   
     .description {
-        font-family: "LEMON MILK";
-        font-style: normal;
-        font-size: 22px;
-        line-height: 30px;
-        text-align: left;
-        text-transform: uppercase;
-        font-family: 'lemon_milkregular';
-        src: url('lemonmilk-regular-webfont.woff2') format('woff2'),
-       url('lemonmilk-regular-webfont.woff') format('woff');
+       font-size: 22px;
+       line-height: 30px;
+       text-align: left;
+       text-transform: uppercase;
+       font-family: 'lemon_milkregular';
+       src: url('lemonmilk-regular-webfont.woff2') format('woff2'), url('lemonmilk-regular-webfont.woff') format('woff');
        font-weight: normal;
        font-style: normal;
       }
@@ -203,7 +200,6 @@
             width: 20px;
             height: 20px;
           }
-  
         }
       }
     }
