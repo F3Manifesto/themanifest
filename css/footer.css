@@ -216,3 +216,20 @@ a.footer-text-white {
       
     }
 } */
+
+@media (max-width: 780px) {
+  .footerWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerWrapper .imagelogo img {
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  .footerWrapper .logo_big {
+    height: 25px;
+    margin-left: 5px;
+  }
+}
