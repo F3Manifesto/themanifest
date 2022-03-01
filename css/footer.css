@@ -1,215 +1,218 @@
 .footer {
-    background: #4E4AFF;
-    position: relative;
-  
-    a {
-      color; #fffff;
-      &:hover {
-        color: white;
-      }
-    }
+  background: #4E4AFF;
+  position: relative;
+}
 
+.footer a {
+  color: #ffffff;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.footerWrapper {
+  color: white;
+  background: #4E4AFF;
+  margin: auto;
+  padding-top: 57px;
+  padding-bottom: 57px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerWrapper .centerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+.footerWrapper .description {
+  font-size: 22px;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'lemon_milkregular';
+  src: url('lemonmilk-regular-webfont.woff2') format('woff2'), url('lemonmilk-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+}
+
+.footerWrapper .dFlex {
+  display: flex;
+  margin-top: 10px;
+}
+
+  
+.footerWrapper .aboutLine {
+  font-family: "LEMON MILK";
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.footerWrapper .iconsLine {
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footerWrapper .iconsLine img {
+  margin-right: 10px;
+}
+
+.footerWrapper .mediumIcon {
+  margin-left: 10px;
+}
+.footerWrapper .tiktokIcon {
+  margin-right: 20px;
+}
+.footerWrapper .twitchIcon {
+  margin-right: 20px;
+}
+.footerWrapper .discordIcon {
+  margin-right: 20px;
+}
+
+.footerWrapper .mirrorIcon {
+  width: 35px;
+  height: 35px;
+}
+
+.whiteLogo {
+  width: 40px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+  
+.footerWrapper .linkedinIcon {
+  width: 35px;
+}
+
+a.footer-text-white {
+  color: white;
+}
+  
+@media (max-width: 1440px) {
   .footerWrapper {
-    color: white;
-    background: #4E4AFF;
-    // max-width: 1300px;
-    margin: auto;
-    padding-top: 57px;
-    padding-bottom: 57px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 90%;
+  }
+}
+@media (max-width: 780px) {
+  .footerWrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+
+  .footerWrapper .description {
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .footerWrapper .aboutLine {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .footerWrapper .aboutLine a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   
-    @media (max-width: 1440px) {
-      max-width: 90%;
-    }
-  
-    .imageLogo {
-      
-    }
-  
-    .centerWrapper {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  
-      padding-left: 34px;
-      padding-right: 34px;
-    }
-  
-    .description {
-       font-size: 22px;
-       line-height: 30px;
-       text-align: left;
-       text-transform: uppercase;
-       font-family: 'lemon_milkregular';
-       src: url('lemonmilk-regular-webfont.woff2') format('woff2'), url('lemonmilk-regular-webfont.woff') format('woff');
-       font-weight: normal;
-       font-style: normal;
-       color: white;
-      }
-  
-      .dFlex {
-        display: flex;
-        margin-top: 10px;
-      }
-  
-      .aboutLine {
-        font-family: "LEMON MILK";
-        font-size: 20px;
-        line-height: 24px;
-        text-align: left;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        width: 100%;
-  
-        a {
-  
-        }
-      }
-  
-      .iconsLine {
-        width: 100%;
-        align-items: center;
-        justify-content: flex-start;
-        img {
-          margin-right: 10px;
-        }
-        .mediumIcon {
-          margin-left: 10px;
-        }
-        .tiktokIcon {
-          margin-right: 20px;
-        }
-        .twitchIcon {
-          margin-right: 20px;
-        }
-        .discordIcon {
-          margin-right: 20px;
-        }
-        .mirrorIcon {
-          width: 35px;
-          height: 35px;
-        }
-      }
-    }
-  
-    .whiteLogo {
-      width: 40px;
-      margin-top: 35px;
-      margin-bottom: 30px;
-    }
-  
-    @media (max-width: 1440px) {
-      .imageLogo {
-        
-      }
-    }
-    @media (max-width: 780px) {
-      display: flex;
-      flex-direction: column;
-  
-      .description {
-        font-size: 15px;
-        line-height: 19px;
-        text-align: center;
-      }
-  
-      .imageLogo {
-  
-      }
-  
+  .footerWrapper .iconsLine img {
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  .footerWrapper .mediumIcon {
+    height: 25px;
+    margin-left: 5px;
+  }
+
+  .footerWrapper .youtubeIcon{
+    height: 20px;
+  }
+
+  .footerWrapper .mirrorIcon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .footerWrapper .centerWrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footerWrapper .description {
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .footerWrapper  .aboutLine {
+    font-size: 20px;
+    line-height: 22px;
+    justify-content: center;
+  }
+
+  .footerWrapper .aboutLine a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+   
+  .footerWrapper .iconsLine {
+    justify-content: center;
+  }
+
+  .footerWrapper .iconsLine img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .footerWrapper .mediumIcon {
+    height: 20px;
+  }
+  .footerWrapper .tiktokIcon {
+    margin-right: 5px;
+  }
+
+  .footerWrapper .twitchIcon {
+    margin-right: 5px;
+  }
+
+  .footerWrapper .discordIcon {
+    margin-right: 10px;
+  } 
+
+  .footerWrapper .mirrorIcon {
+    width: 20px;
+    height: 20px;
+  }
+}
+  /* 
+ 
       .centerWrapper {
-        .aboutLine {
-          font-size: 13px;
-          line-height: 15px;
-          
-          a {
-            padding-left: 10px;
-            padding-right: 10px;
-          }
-        }
-        .iconsLine {
-          img {
-            height: 25px;
-            margin-right: 10px;
-          }
-  
-          .mediumIcon{
-            height: 25px;
-            margin-left: 5px;
-          }
-  
-          .youtubeIcon{
-            height: 20px;
-          }
-  
-          .mirrorIcon {
-            width: 20px;
-            height: 20px;
-          }
-        }
+        
       }
     }
     @media (max-width: 420px) {
   
-      .centerWrapper {
-        padding-left: 0;
-        padding-right: 0;
-  
-        .description {
-          font-size: 22px;
-          line-height: 25px;
-          text-align: center;
-        }
-  
-        .aboutLine {
-          font-size: 20px;
-          line-height: 22px;
-          justify-content: center;
-          a {
-            padding-left: 10px;
-            padding-right: 10px;
-          }
-        }
-        .iconsLine {
-          justify-content: center;
-          img {
-            height: 20px;
-            width: 20px;
-            margin-right: 5px;
-          }
-          .mediumIcon {
-            height: 20px;
-          }
-  
-          .tiktokIcon {
-            margin-right: 5px;
-          }
-  
-          .twitchIcon {
-            margin-right: 5px;
-          }
-  
-          .discordIcon {
-            margin-right: 10px;
-          } 
-  
-          .mirrorIcon {
-            width: 20px;
-            height: 20px;
-          }
-        }
-      }
+      
     }
-}
-  
-  .linkedinIcon {
-    width: 35px;
-  }
-
-a.footer-text-white {
-    color: white;
-}
+} */
