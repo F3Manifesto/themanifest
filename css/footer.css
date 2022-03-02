@@ -223,13 +223,25 @@ a.footer-text-white {
     flex-direction: column;
   }
 
-  .footerWrapper .imagelogo img {
-    height: 25px;
-    margin-right: 10px;
+  .footerWrapper .textLogo {
+    text-align: center;
+  }
+
+  .footerWrapper .imageLogo {
+    height: 50px;
+    margin: auto;
   }
 
   .footerWrapper .logo_big {
     height: 25px;
     margin-left: 5px;
+  }
+
+  .footerWrapper .description {
+    font-size: 13px;
+  }
+
+  .footerWrapper .aboutLine {
+    font-size: 13px;
   }
 }
