@@ -15,8 +15,8 @@
   color: white;
   background: #4E4AFF;
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 27px;
+  padding-bottom: 27px;
   padding-left: 20px;
   padding-right: 20px;
   display: flex;
@@ -34,7 +34,7 @@
 
 .footerWrapper .description {
   font-size: 16px;
-  line-height: 20px;
+  line-height: 22px;
   text-align: left;
   text-transform: uppercase;
   font-family: 'lemon_milkregular';
@@ -45,12 +45,12 @@
 }
 
 .footerWrapper .imageLogo {
-  height: 30px;
+  height: 50px;
   margin: auto;
 }
 
 .footerWrapper .logo_big {
-  height: 25px;
+  height: 50px;
   margin-left: 5px;
 }
 
@@ -61,7 +61,7 @@
 
 .footerWrapper .aboutLine {
   font-family: "LEMON MILK";
-  font-size: 20px;
+  font-size: 16px;
   line-height: 20px;
   text-align: center;
   display: flex;
