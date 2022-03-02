@@ -59,7 +59,7 @@
   margin-top: 10px;
 }
 
-.footerWrapper .aboutLine {
+/* .footerWrapper .aboutLine {
   font-family: "LEMON MILK";
   font-size: 16px;
   line-height: 20px;
@@ -69,6 +69,7 @@
   justify-content: flex-start;
   width: 100%;
 }
+*/
 
 .footerWrapper .iconsLine {
   width: 100%;
@@ -99,6 +100,11 @@
 }
 
 .footerWrapper .youtubeIcon {
+  width: 25px;
+  height: 20px;
+}
+
+.footerWrapper .gitbookIcon {
   width: 25px;
   height: 20px;
 }
@@ -135,6 +141,7 @@ a.footer-text-white {
     text-align: center;
   }
 
+/*
   .footerWrapper .aboutLine {
     font-size: 13px;
     line-height: 15px;
@@ -144,7 +151,7 @@ a.footer-text-white {
     padding-left: 10px;
     padding-right: 10px;
   }
-
+*/
   
   .footerWrapper .iconsLine img {
     height: 25px;
@@ -164,6 +171,11 @@ a.footer-text-white {
     width: 20px;
     height: 20px;
   }
+
+  .footerWrapper .gitbookIcon {
+    width: 25px;
+    height: 20px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -178,6 +190,7 @@ a.footer-text-white {
     text-align: center;
   }
 
+/*
   .footerWrapper  .aboutLine {
     font-size: 20px;
     line-height: 22px;
@@ -188,6 +201,8 @@ a.footer-text-white {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  */
    
   .footerWrapper .iconsLine {
     justify-content: center;
@@ -222,6 +237,11 @@ a.footer-text-white {
   .footerWrapper .youtubeIcon {
     width: 25px;
     height: 20px;
+  }
+
+  .footerWrapper .gitbookIcon {
+    width: 25px;
+    height: 25px;
   }
 }
   /* 
@@ -260,10 +280,12 @@ a.footer-text-white {
     font-size: 10px;
   }
 
+  /*
   .footerWrapper .aboutLine {
     font-size: 10px;
     text-align: center;
   }
+  */
 
   .footerWrapper .iconsLine {
     justify-content: center;
@@ -298,6 +320,11 @@ a.footer-text-white {
   .footerWrapper .youtubeIcon {
     width: 10px;
     height: 10px;
+  }
+
+  .footerWrapper .gitbookIcon {
+    width: 15px;
+    height: 15px;
   }
 
 }
