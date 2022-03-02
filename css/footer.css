@@ -289,4 +289,9 @@ a.footer-text-white {
     width: 10px;
     height: 10px;
   }
+
+  .footerWrapper .aboutLine {
+    text-align: center;
+  }
+
 }
