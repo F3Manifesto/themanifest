@@ -34,7 +34,7 @@
 
 .footerWrapper .description {
   font-size: 16px;
-  line-height: 16px;
+  line-height: 20px;
   text-align: left;
   text-transform: uppercase;
   font-family: 'lemon_milkregular';
@@ -44,10 +44,30 @@
   color: white;
 }
 
+.footerWrapper .imageLogo {
+  height: 30px;
+  margin: auto;
+}
+
+.footerWrapper .logo_big {
+  height: 25px;
+  margin-left: 5px;
+}
+
 .footerWrapper .dFlex {
   display: flex;
   margin-top: 10px;
 }
+
+  .footerWrapper .imageLogo {
+    height: 30px;
+    margin: auto;
+  }
+
+  .footerWrapper .logo_big {
+    height: 15px;
+    margin-left: 5px;
+  }
 
   
 .footerWrapper .aboutLine {
@@ -90,7 +110,7 @@
 }
 
 .footerWrapper .youtubeIcon {
-  width: 20px;
+  width: 25px;
   height: 20px;
 }
 
@@ -148,7 +168,7 @@ a.footer-text-white {
   }
 
   .footerWrapper .youtubeIcon{
-    height: 20px;
+    height: 25px;
   }
 
   .footerWrapper .mirrorIcon {
@@ -211,7 +231,7 @@ a.footer-text-white {
   }
 
   .footerWrapper .youtubeIcon {
-    width: 20px;
+    width: 25px;
     height: 20px;
   }
 }
@@ -289,10 +309,6 @@ a.footer-text-white {
   .footerWrapper .youtubeIcon {
     width: 10px;
     height: 10px;
-  }
-
-  .footerWrapper .aboutLine {
-    text-align: center;
   }
 
 }
