@@ -89,6 +89,11 @@
   height: 35px;
 }
 
+.footerWrapper .youtubeIcon {
+  width: 20px;
+  height: 20px;
+}
+
 .whiteLogo {
   width: 20px;
   margin-top: 20px;
@@ -204,6 +209,11 @@ a.footer-text-white {
     width: 20px;
     height: 20px;
   }
+
+  .footerWrapper .youtubeIcon {
+    width: 20px;
+    height: 20px;
+  }
 }
   /* 
  
@@ -228,20 +238,55 @@ a.footer-text-white {
   }
 
   .footerWrapper .imageLogo {
-    height: 50px;
+    height: 30px;
     margin: auto;
   }
 
   .footerWrapper .logo_big {
-    height: 25px;
+    height: 15px;
     margin-left: 5px;
   }
 
   .footerWrapper .description {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .footerWrapper .aboutLine {
-    font-size: 13px;
+    font-size: 10px;
+  }
+
+  .footerWrapper .iconsLine {
+    justify-content: center;
+  }
+
+  .footerWrapper .iconsLine img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .footerWrapper .mediumIcon {
+    height: 10px;
+  }
+  .footerWrapper .tiktokIcon {
+    margin-right: 5px;
+  }
+
+  .footerWrapper .twitchIcon {
+    margin-right: 5px;
+  }
+
+  .footerWrapper .discordIcon {
+    margin-right: 10px;
+  } 
+
+  .footerWrapper .mirrorIcon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .footerWrapper .youtubeIcon {
+    width: 10px;
+    height: 10px;
   }
 }
