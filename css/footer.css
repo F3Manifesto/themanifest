@@ -78,7 +78,7 @@
 }
 
 .footerWrapper .iconsLine img {
-  margin-right: 10px;
+  margin-right: 12px;
 }
 
 .footerWrapper .mediumIcon {
@@ -95,18 +95,18 @@
 }
 
 .footerWrapper .mirrorIcon {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 
 .footerWrapper .youtubeIcon {
-  width: 25px;
-  height: 20px;
+  width: 30px;
+  height: 25px;
 }
 
 .footerWrapper .gitbookIcon {
-  width: 25px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
 }
 
 .whiteLogo {
@@ -164,17 +164,18 @@ a.footer-text-white {
   }
 
   .footerWrapper .youtubeIcon{
+    width: 30px;
     height: 25px;
   }
 
   .footerWrapper .mirrorIcon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
 
   .footerWrapper .gitbookIcon {
-    width: 25px;
-    height: 20px;
+    width: 35px;
+    height: 30px;
   }
 }
 
@@ -230,18 +231,18 @@ a.footer-text-white {
   } 
 
   .footerWrapper .mirrorIcon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
 
   .footerWrapper .youtubeIcon {
-    width: 25px;
-    height: 20px;
+    width: 30px;
+    height: 25px;
   }
 
   .footerWrapper .gitbookIcon {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 30px;
   }
 }
   /* 
