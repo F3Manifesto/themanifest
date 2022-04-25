@@ -44,7 +44,10 @@ button {
   white-space: wrap;
   border-radius: 8px;
   cursor: pointer;
+  
 }
+
+
 button:hover,
 .button:focus {
   color: #4E4AFF;
@@ -454,3 +457,4 @@ button:hover,
 .button.button-xing:focus {
   filter: brightness(90%);
 }
+
