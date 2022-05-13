@@ -15,31 +15,47 @@
   color: white;
   background: #4E4AFF;
   margin: auto;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  padding-top: 47px;
+  padding-bottom: 47px;
   padding-left: 20px;
   padding-right: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .footerWrapper .centerWrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-
-  padding-left: 34px;
-  padding-right: 34px;
+  // align-items: center;
 }
 
 .footerWrapper .description {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   font-size: 16px;
   line-height: 22px;
   text-align: left;
   text-transform: uppercase;
-  font-family: 'lemon_milkregular';
-  src: url('lemonmilk-regular-webfont.woff2') format('woff2'), url('lemonmilk-regular-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Akira Expanded';
+
+  font-weight: 400;
+  font-style: normal;
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff;
+}
+
+.footerWrapper .description2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'Akira Expanded';
+
+  font-weight: 400;
   font-style: normal;
   color: white;
 }
@@ -58,18 +74,6 @@
   display: flex;
   margin-top: 10px;
 }
-
-/* .footerWrapper .aboutLine {
-  font-family: "LEMON MILK";
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 100%;
-}
-*/
 
 .footerWrapper .iconsLine {
   width: 100%;
@@ -102,11 +106,12 @@
 .footerWrapper .youtubeIcon {
   width: 30px;
   height: 25px;
+  object-fit: contain;
 }
 
 .footerWrapper .gitbookIcon {
-  width: 25px;
-  height: 20px;
+  width: 33px;
+  height: 33px;
 }
 
 .whiteLogo {
@@ -135,23 +140,12 @@ a.footer-text-white {
     flex-direction: column;
   }
 
-  .footerWrapper .description {
+  .footerWrapper .description,
+  .footerWrapper .description2 {
     font-size: 15px;
     line-height: 19px;
     text-align: center;
   }
-
-/*
-  .footerWrapper .aboutLine {
-    font-size: 13px;
-    line-height: 15px;
-  }
-
-  .footerWrapper .aboutLine a {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-*/
   
   .footerWrapper .iconsLine img {
     height: 25px;
@@ -174,8 +168,8 @@ a.footer-text-white {
   }
 
   .footerWrapper .gitbookIcon {
-    width: 25px;
-    height: 20px;
+    width: 33px;
+    height: 33px;
   }
 }
 
@@ -191,19 +185,8 @@ a.footer-text-white {
     text-align: center;
   }
 
-/*
-  .footerWrapper  .aboutLine {
-    font-size: 20px;
-    line-height: 22px;
-    justify-content: center;
-  }
 
-  .footerWrapper .aboutLine a {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
 
-  */
    
   .footerWrapper .iconsLine {
     justify-content: center;
@@ -241,21 +224,16 @@ a.footer-text-white {
   }
 
   .footerWrapper .gitbookIcon {
-    width: 25px;
-    height: 20px;
+    width: 33px;
+    height: 33px;
   }
 }
-  /* 
  
-      .centerWrapper {
-        
-      }
-    }
+  
     @media (max-width: 420px) {
   
       
     }
-} */
 
 @media (max-width: 780px) {
   .footerWrapper {
@@ -268,7 +246,7 @@ a.footer-text-white {
   }
 
   .footerWrapper .imageLogo {
-    height: 30px;
+    height: 70px;
     margin: auto;
   }
 
@@ -282,36 +260,29 @@ a.footer-text-white {
     line-height: 15px;
   }
 
-  /*
-  .footerWrapper .aboutLine {
-    font-size: 10px;
-    text-align: center;
-  }
-  */
-
   .footerWrapper .iconsLine {
     justify-content: center;
   }
 
   .footerWrapper .iconsLine img {
-    height: 20px;
-    width: 20px;
-    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
   }
 
   .footerWrapper .mediumIcon {
     height: 10px;
   }
   .footerWrapper .tiktokIcon {
-    margin-right: 5px;
+    margin-right: 7px;
   }
 
   .footerWrapper .twitchIcon {
-    margin-right: 5px;
+    margin-right: 7px;
   }
 
   .footerWrapper .discordIcon {
-    margin-right: 10px;
+    margin-right: 12px;
   } 
 
   .footerWrapper .mirrorIcon {
